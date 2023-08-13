@@ -21,6 +21,8 @@
     "certificate-auth": "cd detached-examples/certificate-auth && npm start",
     "set-window-size-for-all-tests": "testcafe chrome detached-examples/set-window-size-for-all-tests/set-window-size-for-all-tests.js --config-file detached-examples/set-window-size-for-all-tests/.testcaferc.js",
     "test": "npm run lint & npm run examples && npm run multiuser-scenario && npm run mock-camera-microphone-access && npm run extended-error-tracking && npm run set-window-size-for-all-tests",
+    "test1": "npx testcafe chrome examples/submit-a-form/submit-a-form.js",
+
     "lint": "eslint examples/**/*.js detached-examples/**/*.js",
     "lint:fix": "eslint --fix examples/**/*.js detached-examples/**/*.js"
   },
